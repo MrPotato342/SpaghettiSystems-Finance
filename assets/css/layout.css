@@ -1,0 +1,9 @@
+.tool-page {
+  width: min(100% - 2rem, 1000px);
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+.tool-page section {
+  margin-bottom: 4rem;
+}

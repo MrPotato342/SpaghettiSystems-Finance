@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>FinTools</title>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/components.css">
+  <link rel="stylesheet" href="./assets/css/tools.css">
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <main class="container">
+
+    <section class="homepage-hero">
+      <h1>Financial Tools for India</h1>
+      <p>
+        Smart calculators and decision tools for loans,
+        investing, taxes, and planning.
+      </p>
+    </section>
+
+    <section>
+      <h2>Featured Tools</h2>
+
+      <div id="homepage-tools" class="related-grid"></div>
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="./assets/js/load-components.js"></script>
+  <script src="./assets/js/tools-registry.js"></script>
+
+  <script>
+    const container = document.getElementById("homepage-tools");
+
+    container.innerHTML = TOOLS.map(tool => `
+      <a class="related-card" href="./tools/${tool.slug}.html">
+        <h3>${tool.title}</h3>
+        <p>${tool.description}</p>
+      </a>
+    `).join("");
+  </script>
+
+</body>
+</html>

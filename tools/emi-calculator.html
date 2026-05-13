@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    EMI Prepayment Calculator
+  </title>
+
+  <meta
+    name="description"
+    content="See how extra monthly loan payments reduce total interest and repayment time."
+  >
+
+  <link
+    rel="stylesheet"
+    href="/assets/css/main.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/assets/css/layout.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/assets/css/components.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/assets/css/tools.css"
+  >
+
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <main class="tool-page">
+
+    <!-- HERO -->
+
+    <section class="tool-hero">
+
+      <h1>
+        EMI Prepayment Calculator
+      </h1>
+
+      <p>
+        Discover how extra monthly payments
+        can reduce your home loan interest
+        and close your loan years earlier.
+      </p>
+
+    </section>
+
+    <!-- INPUTS -->
+
+    <section class="tool-inputs">
+
+      <div class="tool-card">
+
+        <label>
+          Loan Amount
+        </label>
+
+        <input
+          id="loanAmount"
+          type="number"
+          value="5000000"
+        >
+
+      </div>
+
+      <div class="tool-card">
+
+        <label>
+          Interest Rate (%)
+        </label>
+
+        <input
+          id="interestRate"
+          type="number"
+          step="0.1"
+          value="8.5"
+        >
+
+      </div>
+
+      <div class="tool-card">
+
+        <label>
+          Loan Tenure (Years)
+        </label>
+
+        <input
+          id="loanYears"
+          type="number"
+          value="20"
+        >
+
+      </div>
+
+      <div class="tool-card">
+
+        <label>
+          Extra Monthly Prepayment
+        </label>
+
+        <input
+          id="extraPayment"
+          type="number"
+          value="10000"
+        >
+
+      </div>
+
+    </section>
+
+    <!-- HERO RESULT -->
+
+    <section class="impact-panel">
+
+      <div class="impact-card">
+
+        <h2 id="impactHeadline">
+        </h2>
+
+        <p id="impactDescription">
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- RESULTS -->
+
+    <section class="results-grid">
+
+      <div class="tool-card">
+
+        <h3>
+          Monthly EMI
+        </h3>
+
+        <p id="emiResult">
+        </p>
+
+      </div>
+
+      <div class="tool-card">
+
+        <h3>
+          Original Interest
+        </h3>
+
+        <p id="originalInterest">
+        </p>
+
+      </div>
+
+      <div class="tool-card">
+
+        <h3>
+          Interest Saved
+        </h3>
+
+        <p id="interestSaved">
+        </p>
+
+      </div>
+
+      <div class="tool-card">
+
+        <h3>
+          Time Saved
+        </h3>
+
+        <p id="timeSaved">
+        </p>
+
+      </div>
+
+      <div class="tool-card">
+
+        <h3>
+          New Loan Duration
+        </h3>
+
+        <p id="newDuration">
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- EFFICIENCY -->
+
+    <section class="tool-card">
+
+      <h2>
+        Prepayment Efficiency
+      </h2>
+
+      <p id="efficiencyMetric">
+      </p>
+
+    </section>
+
+    <!-- RECOMMENDATION -->
+
+    <section class="tool-card recommendation-card">
+
+      <h2>
+        Strategic Insight
+      </h2>
+
+      <p id="recommendationText">
+      </p>
+
+    </section>
+
+    <!-- EXPLANATION -->
+
+    <section class="tool-explanation">
+
+<h2>
+  Why Prepayment Matters
+</h2>
+
+<p>
+  Home loans are typically structured so that
+  interest dominates the early years of repayment.
+  In most EMI schedules, a large portion of your initial payments
+  goes toward interest rather than principal reduction.
+</p>
+
+<p>
+  This creates a compounding disadvantage:
+  the longer the principal stays high,
+  the more total interest you end up paying over the loan lifetime.
+</p>
+
+<p>
+  Prepayment directly attacks this structure by reducing the principal early.
+  Even small lump-sum payments in the first 3–7 years
+  can disproportionately reduce total interest outflow
+  compared to the same amount paid later in the loan cycle.
+</p>
+
+<p>
+  In most cases, reducing the loan tenure is more efficient than reducing EMI.
+  A shorter tenure reduces the compounding window,
+  which significantly lowers total interest paid,
+  even if monthly cash flow remains similar.
+</p>
+
+<p>
+  The key idea is simple:
+  <strong>
+    early principal reduction has exponential impact on total savings
+  </strong>
+  because interest is calculated on the remaining outstanding balance over time.
+</p>
+    </section>
+
+    <!-- RELATED TOOLS -->
+
+    <section
+      id="related-tools"
+      class="related-tools"
+    >
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="../assets/js/load-components.js"></script>
+
+  <script src="../assets/js/tools-registry.js"></script>
+
+  <script src="../assets/js/shared-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="../assets/js/tools/emi.js"></script>
+
+  <script>
+    renderRelatedTools(
+      "emi-calculator"
+    );
+  </script>
+
+</body>
+
+</html>
