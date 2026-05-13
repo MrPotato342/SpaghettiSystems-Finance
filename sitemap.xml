@@ -1,53 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/</loc>
+</url>
 
-  <!-- MAIN PAGES -->
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/about.html</loc>
+</url>
 
-  <url>
-    <loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/</loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/contact.html</loc>
+</url>
 
-  <url>
-    <loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/about.html</loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/privacy.html</loc>
+</url>
 
-  <url>
-    <loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/contact.html</loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/terms.html</loc>
+</url>
 
-  <url>
-    <loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/privacy.html</loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/disclaimer.html</loc>
+</url>
 
-  <url>
-    <loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/terms.html</loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/tools/emi-calculator.html</loc>
+</url>
 
-  <url>
-    <loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/disclaimer.html</loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/tools/fire-retirement-planner.html</loc>
+</url>
 
-  <!-- TOOL PAGES -->
-
-  <url>
-    <loc>
-      https://spaghettis-systems-finance.aryan-s-s324.workers.dev/tools/emi-calculator.html
-    </loc>
-  </url>
-
-  <url>
-    <loc>
-      https://spaghettis-systems-finance.aryan-s-s324.workers.dev/tools/fire-retirement-planner.html
-    </loc>
-  </url>
-
-  <url>
-    <loc>
-      https://spaghettis-systems-finance.aryan-s-s324.workers.dev/tools/tax-regime-optimizer.html
-    </loc>
-  </url>
+<url>
+<loc>https://spaghettis-systems-finance.aryan-s-s324.workers.dev/tools/tax-regime-optimizer.html</loc>
+</url>
 
 </urlset>
