@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spaghettis-systems-finance.aryan-s-s324.workers.dev/sitemap_index.xml
